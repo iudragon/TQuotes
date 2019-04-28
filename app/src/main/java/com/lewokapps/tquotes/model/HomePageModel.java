@@ -109,8 +109,6 @@ public class HomePageModel {
         this.horizontalProductScrollModelList = horizontalProductScrollModelList;
     }
 
-    ///////// Grid Product Layout
-
     public String getTitle() {
         return title;
     }

@@ -69,7 +69,6 @@ public class HorizontalProductScrollAdapter extends RecyclerView.Adapter<Horizon
 
         private ImageView productImage;
         private TextView productTitle;
-//        private TextView productDescription;
         private TextView productPrice;
 
 
@@ -78,7 +77,6 @@ public class HorizontalProductScrollAdapter extends RecyclerView.Adapter<Horizon
 
             productImage = itemView.findViewById(R.id.h_s_product_image);
             productTitle = itemView.findViewById(R.id.h_s_product_title);
-//            productDescription = itemView.findViewById(R.id.h_s_product_description);
             productPrice = itemView.findViewById(R.id.h_s_product_price);
 
         }
@@ -88,8 +86,6 @@ public class HorizontalProductScrollAdapter extends RecyclerView.Adapter<Horizon
             Glide.with(itemView.getContext()).load(resource).apply(new RequestOptions().placeholder(R.drawable.placeholdericonmini)).into(productImage);
 
             productPrice.setText("Rs. " + price + "/-");
-
-//            productDescription.setText(description);
 
             productTitle.setText(title);
 

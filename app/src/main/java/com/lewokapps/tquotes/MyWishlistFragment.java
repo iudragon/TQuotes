@@ -26,7 +26,7 @@ public class MyWishlistFragment extends Fragment {
 
     public RecyclerView wishlistRecyclerView;
 
-    private Dialog loadingDialog;
+        private Dialog loadingDialog;
 
     public static WishlistAdapter wishlistAdapter;
 
@@ -70,6 +70,8 @@ public class MyWishlistFragment extends Fragment {
 
             //  loadingDialog.dismiss();
         }
+
+
 
         wishlistAdapter = new WishlistAdapter(DBqueries.wishlistModelList, true);
         wishlistRecyclerView.setAdapter(wishlistAdapter);

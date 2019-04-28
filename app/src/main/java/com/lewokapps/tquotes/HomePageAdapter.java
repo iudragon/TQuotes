@@ -428,11 +428,7 @@ public class HomePageAdapter extends RecyclerView.Adapter {
 
     }
 
-
-
-
     //////////////////////////////
-
 
     public class HorizontalProductViewHolderDuplicate extends RecyclerView.ViewHolder {
 
